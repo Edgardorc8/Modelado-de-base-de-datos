@@ -1,0 +1,1 @@
+SELECT ts.id AS id_tipo_solicitud, ts.tipo AS tipo_solicitud, ts.descripcion_tipo AS descripcion_tipo, ts.status AS status, COUNT(sc.id_civil) AS total_civiles FROM tipo_curso ts INNER JOIN solicitud_participantes sc ON ts.id = sc.id_tipo_curso GROUP BY ts.id, ts.tipo, ts.descripcion_tipo, ts.status;
