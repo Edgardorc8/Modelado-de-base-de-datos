@@ -1,0 +1,1 @@
+SELECT co.id_comunas, co.nombre_comunas, t.id AS id_tipo_solicitud, t.descripcion_tipo AS tipo_solicitud, c.nombres_apellidos, c.cedula, c.direccion, c.telefono, c.email, c.otro_curso FROM comunas co JOIN datos_personales c ON co.id_comunas = c.id_comuna JOIN solicitud_participantes s ON c.id = s.id_civil JOIN tipo_curso t ON s.id_tipo_curso = t.id WHERE c.status_datos = 1;
