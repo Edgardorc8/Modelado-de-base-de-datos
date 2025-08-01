@@ -1,0 +1,1 @@
+SELECT fv.id_forma AS id_tipo_solicitud, fv.nombre_forma AS tipo_solicitud, COUNT(cal.id_forma_violencia) AS total_violencia FROM formas_violencia fv INNER JOIN consolidado_asesoria_legal cal ON fv.id_forma = cal.id_forma_violencia INNER JOIN datos_personales dp ON cal.id_datos_personal = dp.id;
