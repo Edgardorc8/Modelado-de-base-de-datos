@@ -1,0 +1,1 @@
+SELECT f.id,f.descripcion, t.nombre_tipo FROM forma_asesoria_legal f inner join tipo_asesoria t on t.id_tipo_asesoria = f.id_tipo where f.status = 1;
