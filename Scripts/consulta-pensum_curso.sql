@@ -1,0 +1,1 @@
+SELECT pc.id, pc.descripcion, pc.modulo, pc.status, pc.id_tipo_curso, ts.descripcion_tipo, ts.tipo FROM pensum_curso pc INNER JOIN tipo_curso ts ON pc.id_tipo_curso = ts.id;
