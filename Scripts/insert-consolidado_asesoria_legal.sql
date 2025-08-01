@@ -1,0 +1,2 @@
+INSERT INTO `consolidado_asesoria_legal` (`id`, `id_datos_personal`, `fecha_registro`, `n_expediente`, `id_forma_violencia`, `id_tipo_asesoria`, `nombre_citado`, `cedula_citado`, `edad_citado`, `comperencia`, `status`, `remisiones`, `asesorado_defensor`, `id_status_consol_legal`, `fecha_cita`, `observaciones`, `img`) VALUES
+(1, 1, '2025-07-31', 'IAM-2025-1', 5, 1, NULL, NULL, NULL, 1, 1, 10, 2, 1, '2025-08-14', 'Se observaron moretones en algunas partes del cuerpo', 'evidencia.jpg');
