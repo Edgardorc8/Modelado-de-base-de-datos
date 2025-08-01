@@ -1,0 +1,3 @@
+INSERT INTO `datos_personales` (`id`, `tipo_documento`, `cedula`, `nombres_apellidos`, `direccion`, `email`, `telefono`, `otro_curso`, `edad`, `fecha_registro`, `fecha_nacimiento`, `id_remitente`, `id_parroquia`, `id_comuna`, `id_comunidad`, `id_rol`, `id_usuario_registra`, `status_datos`) VALUES
+(1, 'V', 30195942, 'WIRNELY ESTHEL RODRIGUEZ', 'libertador el molino', 'wirlerodriguez10@gmail.com', '42123242', NULL, 54, '2025-05-01', '1995-01-07', 3, 1, 6, 342, 4, 1, 1),
+(2, 'V', 28093033, 'IVAN JOSE VERA CAMPOS', 'santa rosa barrio el carmen sur', 'ivanjosevera@gmail.com', '412967852', NULL, 24, '2025-05-01', '2001-05-30', 3, 1, 6, 0, 4, 1, 1);
